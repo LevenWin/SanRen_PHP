@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link href="./css/test.css" rel="stylesheet" type="text/css">
+    <style>
+        #header-div,#footer-div{
+            padding: 10px;
+            text-align: center;
+            color: white;
+            background-color: dimgray;
+            font-size: 20px;
+            position: relative;
+
+        }
+
+    </style>
+</head>
+
+    <body>
+
+        <div id="header-div" style="">我的动态</div>
+        <content>
+
+            {% block content %}
+
+            {% endblock%}
+
+        </content>
+        <div id="footer-div">@liuwen</div>
+
+    </body>
+
+
+</html>
